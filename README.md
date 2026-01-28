@@ -4,23 +4,23 @@ parent:
 -->
 
 <div align="center">
-  <h1> Fishcake Contracts Repo</h1>
+  <h1>EventFi Contracts Repository</h1>
 </div>
 
 <div align="center">
-  <a href="https://github.com/FishcakeLab/fishcake-contracts/releases/latest">
-    <img alt="Version" src="https://img.shields.io/github/tag/FishcakeLab/fishcake-contracts.svg" />
+  <a href="https://github.com/Marcrus813/event-fi/releases/latest">
+    <img alt="Version" src="https://img.shields.io/github/tag/Marcrus813/event-fi.svg" />
   </a>
-  <a href="https://github.com/FishcakeLab/fishcake-contracts/blob/main/LICENSE">
-    <img alt="License: Apache-2.0" src="https://img.shields.io/github/license/FishcakeLab/fishcake-contracts.svg" />
+  <a href="https://github.com/Marcrus813/event-fi/blob/main/LICENSE">
+    <img alt="License: Apache-2.0" src="https://img.shields.io/github/license/Marcrus813/event-fi.svg" />
   </a>
 </div>
 
-Fishcake Contracts Project
+EventFi Smart Contracts Project
 
 ## Installation
 
-For prerequisites and detailed build instructions please read the [Installation](https://github.com/FishcakeLab/fishcake-contracts/) instructions. Once the dependencies are installed, run:
+For prerequisites and detailed build instructions please read the [Installation](https://github.com/Marcrus813/event-fi/) instructions. Once the dependencies are installed, run:
 
 ```bash
 git submodule update --init --recursive --remote
@@ -33,9 +33,9 @@ forge install OpenZeppelin/openzeppelin-contracts --no-commit
 forge install OpenZeppelin/openzeppelin-foundry-upgrades --no-commit
 ```
 
-Or check out the latest [release](https://github.com/FishcakeLab/fishcake-contracts).
+Or check out the latest [release](https://github.com/Marcrus813/event-fi).
 
-##  Test And Depoly
+## Test And Deploy
 
 ```bash
 $env:PRIVATE_KEY = "0x2a871"
@@ -44,12 +44,12 @@ $env:OPENZEPPELIN_BASH_PATH = "C:/Users/65126/Documents/Git/bin/bash.exe"
 ```
 
 
-### test
+### Test
 ```
 forge test --ffi
 ```
 
-### Depoly
+### Deploy
 
 ```
 forge script script/DeployerV2.s.sol:DeployerScript --rpc-url $RPC_URL --private-key $PRIVKEY --ffi
@@ -67,6 +67,6 @@ forge script script/UpgradeInvestorSalePoolDeployerV2.s.sol:UpgradeInvestorSaleP
 
 ## Contributing
 
-Looking for a good place to start contributing? Check out some [`good first issues`](https://github.com/FishcakeLab/fishcake-contracts/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
+Looking for a good place to start contributing? Check out some [`good first issues`](https://github.com/Marcrus813/event-fi/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
 
 For additional instructions, standards and style guides, please refer to the [Contributing](./CONTRIBUTING.md) document.
